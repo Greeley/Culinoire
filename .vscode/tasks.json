@@ -22,10 +22,10 @@
             "type": "shell",
             "command": "cmake",
             "args": [
-                "-DCMAKE_BUILD_TYPE=Debug",
                 "-S.",
                 "-Bbuild"
-            ]
+            ],
+            "problemMatcher": []
         },
         {
             "type": "cppbuild",

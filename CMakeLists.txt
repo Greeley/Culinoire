@@ -5,7 +5,7 @@ set(CMAKE_CXX_COMPILER "/Library/Developer/CommandLineTools/usr/bin/c++")
 
 project(Culinoire LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # ExternalProject base
@@ -18,7 +18,7 @@ add_subdirectory(external)
 include(ExternalProject)
 ExternalProject_Add(${PROJECT_NAME}_core
   DEPENDS
-    wxWidgets_external
+    wxWidgets
   SOURCE_DIR
     ${CMAKE_CURRENT_SOURCE_DIR}/src
   CMAKE_ARGS

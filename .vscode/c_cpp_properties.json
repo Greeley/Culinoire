@@ -6,9 +6,11 @@
                 "/usr/local/include",
                 "${workspaceFolder}/src/**",
                 "${workspaceFolder}/build/stage/include/wx-3.2/**",
-                "${workspaceFolder}/build/subprojects/Build/wxWidgets_external/lib/wx/include/osx_cocoa-unicode-static-3.2/**"
+                "${workspaceFolder}/build/subprojects/Build/wxWidgets/lib/wx/include/osx_cocoa-unicode-static-3.2/**"
             ],
             "defines": [
+                "_FILE_OFFSET_BITS=64",
+                "WXUSINGDLL",
                 "__WXMAC__",
                 "__WXOSX__",
                 "__WXOSX_COCOA__",
@@ -24,6 +26,12 @@
             "cppStandard": "c++17",
             "intelliSenseMode": "macos-clang-x64",
             "browse": {
+                "path": [
+                    "/usr/local/include",
+                    "${workspaceFolder}/src/",
+                    "/Users/Greeley/Library/wxWidgets/buildOSX/lib/wx/include/osx_cocoa-unicode-3.2",
+                    "/Users/Greeley/Library/wxWidgets/include"
+                ],
                 "limitSymbolsToIncludedHeaders": true
             },
             "configurationProvider": "ms-vscode.cmake-tools"

@@ -1,7 +1,6 @@
 // wxWidgets "Hello world" Program
 // For compilers that support precompilation, includes "wx/wx.h".
 #include <wx/wxprec.h>
-#define __STDC_WANT_LIB_EXT1__
 #ifndef WX_PRECOMP
 #include <wx/wx.h>
 #endif
