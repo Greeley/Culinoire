@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.6 FATAL_ERROR)
-set(CMAKE_C_COMPILER "/Library/Developer/CommandLineTools/usr/bin/c")
-set(CMAKE_CXX_COMPILER "/Library/Developer/CommandLineTools/usr/bin/c++")
+set(CMAKE_C_COMPILER /Library/Developer/CommandLineTools/usr/bin/c)
+set(CMAKE_CXX_COMPILER /Library/Developer/CommandLineTools/usr/bin/c++)
 
 
 project(Culinoire LANGUAGES CXX)

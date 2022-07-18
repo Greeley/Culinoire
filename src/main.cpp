@@ -1,5 +1,6 @@
 // wxWidgets "Hello world" Program
 // For compilers that support precompilation, includes "wx/wx.h".
+// Even though there are red squiggles, intellisense works with no configuration provider active
 #include <wx/wxprec.h>
 #ifndef WX_PRECOMP
 #include <wx/wx.h>
