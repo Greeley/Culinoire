@@ -1,49 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/Greeley/Workspace/Cppspace/Culinoire'
-/usr/local/Cellar/cmake/3.23.2/bin/cmake -S/Users/Greeley/Workspace/Cppspace/Culinoire -B/Users/Greeley/Workspace/Cppspace/Culinoire --check-build-system CMakeFiles/Makefile.cmake 0
-/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_progress_start /Users/Greeley/Workspace/Cppspace/Culinoire/CMakeFiles /Users/Greeley/Workspace/Cppspace/Culinoire//CMakeFiles/progress.marks
-/Library/Developer/CommandLineTools/usr/bin/make -s -f CMakeFiles/Makefile2 all
- 
-make[1]: Entering directory `/Users/Greeley/Workspace/Cppspace/Culinoire'
-/Library/Developer/CommandLineTools/usr/bin/make -s -f external/wxWidgets/CMakeFiles/wxWidgets_external.dir/build.make external/wxWidgets/CMakeFiles/wxWidgets_external.dir/depend
- 
-make[2]: Entering directory `/Users/Greeley/Workspace/Cppspace/Culinoire'
-cd /Users/Greeley/Workspace/Cppspace/Culinoire && /usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_depends "Unix Makefiles" /Users/Greeley/Workspace/Cppspace/Culinoire /Users/Greeley/Workspace/Cppspace/Culinoire/external/wxWidgets /Users/Greeley/Workspace/Cppspace/Culinoire /Users/Greeley/Workspace/Cppspace/Culinoire/external/wxWidgets /Users/Greeley/Workspace/Cppspace/Culinoire/external/wxWidgets/CMakeFiles/wxWidgets_external.dir/DependInfo.cmake --color=
-make[2]: Leaving directory `/Users/Greeley/Workspace/Cppspace/Culinoire'
- 
-/Library/Developer/CommandLineTools/usr/bin/make -s -f external/wxWidgets/CMakeFiles/wxWidgets_external.dir/build.make external/wxWidgets/CMakeFiles/wxWidgets_external.dir/build
- 
-make[2]: Entering directory `/Users/Greeley/Workspace/Cppspace/Culinoire'
-/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --blue --bold --progress-dir=/Users/Greeley/Workspace/Cppspace/Culinoire/CMakeFiles --progress-num=14 "Creating directories for 'wxWidgets_external'"
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/external/wxWidgets && /usr/local/Cellar/cmake/3.23.2/bin/cmake -P /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/tmp/wxWidgets_external/wxWidgets_external-mkdirs.cmake
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/external/wxWidgets && /usr/local/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Stamp/wxWidgets_external/wxWidgets_external-mkdir
- 
-/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --blue --bold --progress-dir=/Users/Greeley/Workspace/Cppspace/Culinoire/CMakeFiles --progress-num=12 "Performing download step (git clone) for 'wxWidgets_external'"
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Source && /usr/local/Cellar/cmake/3.23.2/bin/cmake -P /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/tmp/wxWidgets_external/wxWidgets_external-gitclone.cmake
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Source && /usr/local/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Stamp/wxWidgets_external/wxWidgets_external-download
-/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --blue --bold --progress-dir=/Users/Greeley/Workspace/Cppspace/Culinoire/CMakeFiles --progress-num=16 "No update step for 'wxWidgets_external'"
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Source/wxWidgets_external && /usr/local/Cellar/cmake/3.23.2/bin/cmake -E echo_append
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Source/wxWidgets_external && /usr/local/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Stamp/wxWidgets_external/wxWidgets_external-update
-/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --blue --bold --progress-dir=/Users/Greeley/Workspace/Cppspace/Culinoire/CMakeFiles --progress-num=15 "No patch step for 'wxWidgets_external'"
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/external/wxWidgets && /usr/local/Cellar/cmake/3.23.2/bin/cmake -E echo_append
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/external/wxWidgets && /usr/local/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Stamp/wxWidgets_external/wxWidgets_external-patch
- 
-/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --blue --bold --progress-dir=/Users/Greeley/Workspace/Cppspace/Culinoire/CMakeFiles --progress-num=11 "Performing configure step for 'wxWidgets_external'"
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Build/wxWidgets_external && /usr/local/Cellar/cmake/3.23.2/bin/cmake -P /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Stamp/wxWidgets_external/wxWidgets_external-configure-.cmake
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Build/wxWidgets_external && /usr/local/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Stamp/wxWidgets_external/wxWidgets_external-configure
-/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --blue --bold --progress-dir=/Users/Greeley/Workspace/Cppspace/Culinoire/CMakeFiles --progress-num=10 "Performing build step for 'wxWidgets_external'"
-cd /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Build/wxWidgets_external && /usr/local/Cellar/cmake/3.23.2/bin/cmake -Dmake=/Library/Developer/CommandLineTools/usr/bin/make -P /Users/Greeley/Workspace/Cppspace/Culinoire/subprojects/Stamp/wxWidgets_external/wxWidgets_external-build-.cmake
- 
-/bin/sh: /usr/local/Cellar/cmake/3.23.2/bin/cmake: No such file or directory
-
-make[2]: *** [subprojects/Stamp/wxWidgets_external/wxWidgets_external-build] Error 127
-
-make[1]: *** [external/wxWidgets/CMakeFiles/wxWidgets_external.dir/all] Error 2
-
-make[2]: Leaving directory `/Users/Greeley/Workspace/Cppspace/Culinoire'
-make[1]: Leaving directory `/Users/Greeley/Workspace/Cppspace/Culinoire'
- 
-make: *** [all] Error 2
-
 make: Leaving directory `/Users/Greeley/Workspace/Cppspace/Culinoire'
  
+make: *** No targets specified and no makefile found.  Stop.
+

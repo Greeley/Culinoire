@@ -5,18 +5,20 @@
             "includePath": [
                 "/usr/local/include",
                 "${workspaceFolder}/src/**",
-                "${workspaceFolder}/build/stage/include/wx-3.1/**",
-                "${workspaceFolder}/build/subprojects/Build/wxWidgets_external/lib/wx/include/osx_cocoa-unicode-static-3.1/**"
+                "${workspaceFolder}/build/stage/include/wx-3.2/**",
+                "${workspaceFolder}/build/subprojects/Build/wxWidgets_external/lib/wx/include/osx_cocoa-unicode-static-3.2/**"
             ],
             "defines": [
                 "__WXMAC__",
                 "__WXOSX__",
                 "__WXOSX_COCOA__",
-                "__STDC_LIB_EXT1__"
+                "__INTELLISENSE__",
+                "__STDC_WANT_LIB_EXT1__"
             ],
             "macFrameworkPath": [
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-              ],
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/"
+            ],
             "compilerPath": "/Library/Developer/CommandLineTools/usr/bin/c++",
             "cStandard": "c11",
             "cppStandard": "c++17",
